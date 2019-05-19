@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from "react-redux";
 
 import Users from './Users';
-import {loadUserData, deleteUser} from './usersActions';
+import {loadUserData, deleteUser} from './userSagaActions';
 
 class UserDashboard extends Component {
 
